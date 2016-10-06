@@ -9,8 +9,6 @@
 import Foundation
 
 
-
-
 /// - parameter events:
 ///	An array of `FileSystemEvent` objects. Ordered as provided.
 public typealias	FileSystemEventMonitorCallback	=	(_ events:[FileSystemEvent])->()

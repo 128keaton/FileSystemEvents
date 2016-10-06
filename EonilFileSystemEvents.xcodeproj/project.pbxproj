@@ -59,7 +59,6 @@
 		8A1D12A41DA6A405000797DA /* EonilJustFSEventStreamWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EonilJustFSEventStreamWrapper.h; sourceTree = "<group>"; };
 		8A1D12A51DA6A405000797DA /* EonilJustFSEventStreamWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EonilJustFSEventStreamWrapper.m; sourceTree = "<group>"; };
 		8A1D12A61DA6A405000797DA /* FileSystemEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEventMonitor.swift; sourceTree = "<group>"; };
-		8A1D12A71DA6A405000797DA /* InternalTester-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InternalTester-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A1D12B41DA6A4AF000797DA /* FSE-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSE-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1D12B61DA6A4AF000797DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A1D12BA1DA6A4AF000797DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,7 +146,6 @@
 				8A1D12A41DA6A405000797DA /* EonilJustFSEventStreamWrapper.h */,
 				8A1D12A51DA6A405000797DA /* EonilJustFSEventStreamWrapper.m */,
 				8A1D12A61DA6A405000797DA /* FileSystemEventMonitor.swift */,
-				8A1D12A71DA6A405000797DA /* InternalTester-Bridging-Header.h */,
 				8A1D128B1DA6A3F0000797DA /* Info.plist */,
 			);
 			path = EonilFileSystemEvents;
@@ -570,6 +568,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}";
 				INFOPLIST_FILE = EonilFileSystemEvents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -596,6 +595,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}";
 				INFOPLIST_FILE = EonilFileSystemEvents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";

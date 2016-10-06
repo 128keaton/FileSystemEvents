@@ -9,8 +9,4 @@
 #import "EonilJustFSEventStreamWrapper.h"
 #import	"EonilFileSystemEventStream.h"
 
-//! Project version number for EonilFileSystemEvents.
-FOUNDATION_EXPORT double EonilFileSystemEventsVersionNumber;
 
-//! Project version string for EonilFileSystemEvents.
-FOUNDATION_EXPORT const unsigned char EonilFileSystemEventsVersionString[];
