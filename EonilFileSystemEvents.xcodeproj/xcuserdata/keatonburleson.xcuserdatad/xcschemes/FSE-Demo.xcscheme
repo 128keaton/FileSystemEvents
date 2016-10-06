@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A1D12861DA6A3F0000797DA"
-               BuildableName = "EonilFileSystemEvents.framework"
-               BlueprintName = "EonilFileSystemEvents"
+               BlueprintIdentifier = "8A1D12B31DA6A4AF000797DA"
+               BuildableName = "FSE-Demo.app"
+               BlueprintName = "FSE-Demo"
                ReferencedContainer = "container:EonilFileSystemEvents.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A1D128F1DA6A3F0000797DA"
-               BuildableName = "EonilFileSystemEventsTests.xctest"
-               BlueprintName = "EonilFileSystemEventsTests"
+               BlueprintIdentifier = "8A1D12C31DA6A4AF000797DA"
+               BuildableName = "FSE-DemoTests.xctest"
+               BlueprintName = "FSE-DemoTests"
+               ReferencedContainer = "container:EonilFileSystemEvents.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A1D12CE1DA6A4AF000797DA"
+               BuildableName = "FSE-DemoUITests.xctest"
+               BlueprintName = "FSE-DemoUITests"
                ReferencedContainer = "container:EonilFileSystemEvents.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +52,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A1D12861DA6A3F0000797DA"
-            BuildableName = "EonilFileSystemEvents.framework"
-            BlueprintName = "EonilFileSystemEvents"
+            BlueprintIdentifier = "8A1D12B31DA6A4AF000797DA"
+            BuildableName = "FSE-Demo.app"
+            BlueprintName = "FSE-Demo"
             ReferencedContainer = "container:EonilFileSystemEvents.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,15 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A1D12861DA6A3F0000797DA"
-            BuildableName = "EonilFileSystemEvents.framework"
-            BlueprintName = "EonilFileSystemEvents"
+            BlueprintIdentifier = "8A1D12B31DA6A4AF000797DA"
+            BuildableName = "FSE-Demo.app"
+            BlueprintName = "FSE-Demo"
             ReferencedContainer = "container:EonilFileSystemEvents.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -79,15 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A1D12861DA6A3F0000797DA"
-            BuildableName = "EonilFileSystemEvents.framework"
-            BlueprintName = "EonilFileSystemEvents"
+            BlueprintIdentifier = "8A1D12B31DA6A4AF000797DA"
+            BuildableName = "FSE-Demo.app"
+            BlueprintName = "FSE-Demo"
             ReferencedContainer = "container:EonilFileSystemEvents.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

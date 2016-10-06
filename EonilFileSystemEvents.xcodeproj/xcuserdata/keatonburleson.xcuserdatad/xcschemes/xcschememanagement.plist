@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FSE-Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,21 @@
 			<true/>
 		</dict>
 		<key>8A1D128F1DA6A3F0000797DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A1D12B31DA6A4AF000797DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A1D12C31DA6A4AF000797DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A1D12CE1DA6A4AF000797DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

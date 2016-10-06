@@ -9,7 +9,18 @@
 /* Begin PBXBuildFile section */
 		8A1D12911DA6A3F0000797DA /* EonilFileSystemEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1D12871DA6A3F0000797DA /* EonilFileSystemEvents.framework */; };
 		8A1D12961DA6A3F0000797DA /* EonilFileSystemEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12951DA6A3F0000797DA /* EonilFileSystemEventsTests.swift */; };
-		8A1D12981DA6A3F0000797DA /* EonilFileSystemEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D128A1DA6A3F0000797DA /* EonilFileSystemEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1D12A91DA6A405000797DA /* EonilFileSystemEventStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D12A21DA6A405000797DA /* EonilFileSystemEventStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1D12AA1DA6A405000797DA /* EonilFileSystemEventStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12A31DA6A405000797DA /* EonilFileSystemEventStream.m */; };
+		8A1D12AB1DA6A405000797DA /* EonilJustFSEventStreamWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D12A41DA6A405000797DA /* EonilJustFSEventStreamWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1D12AC1DA6A405000797DA /* EonilJustFSEventStreamWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12A51DA6A405000797DA /* EonilJustFSEventStreamWrapper.m */; };
+		8A1D12AD1DA6A405000797DA /* FileSystemEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12A61DA6A405000797DA /* FileSystemEventMonitor.swift */; };
+		8A1D12AF1DA6A459000797DA /* EonilFileSystemEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D12A11DA6A405000797DA /* EonilFileSystemEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1D12B71DA6A4AF000797DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12B61DA6A4AF000797DA /* AppDelegate.swift */; };
+		8A1D12BB1DA6A4AF000797DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1D12BA1DA6A4AF000797DA /* Assets.xcassets */; };
+		8A1D12C91DA6A4AF000797DA /* FSE_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12C81DA6A4AF000797DA /* FSE_DemoTests.swift */; };
+		8A1D12D41DA6A4AF000797DA /* FSE_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12D31DA6A4AF000797DA /* FSE_DemoUITests.swift */; };
+		8A1D12DF1DA6A4BD000797DA /* EonilFileSystemEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1D12871DA6A3F0000797DA /* EonilFileSystemEvents.framework */; };
+		8A1D12E11DA6A4FC000797DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A1D12E01DA6A4FC000797DA /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +31,46 @@
 			remoteGlobalIDString = 8A1D12861DA6A3F0000797DA;
 			remoteInfo = EonilFileSystemEvents;
 		};
+		8A1D12C51DA6A4AF000797DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1D127E1DA6A3F0000797DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1D12B31DA6A4AF000797DA;
+			remoteInfo = "FSE-Demo";
+		};
+		8A1D12D01DA6A4AF000797DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1D127E1DA6A3F0000797DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1D12B31DA6A4AF000797DA;
+			remoteInfo = "FSE-Demo";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A1D12871DA6A3F0000797DA /* EonilFileSystemEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilFileSystemEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A1D128A1DA6A3F0000797DA /* EonilFileSystemEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EonilFileSystemEvents.h; sourceTree = "<group>"; };
 		8A1D128B1DA6A3F0000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A1D12901DA6A3F0000797DA /* EonilFileSystemEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EonilFileSystemEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1D12951DA6A3F0000797DA /* EonilFileSystemEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EonilFileSystemEventsTests.swift; sourceTree = "<group>"; };
 		8A1D12971DA6A3F0000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1D12A11DA6A405000797DA /* EonilFileSystemEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EonilFileSystemEvents.h; sourceTree = "<group>"; };
+		8A1D12A21DA6A405000797DA /* EonilFileSystemEventStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EonilFileSystemEventStream.h; sourceTree = "<group>"; };
+		8A1D12A31DA6A405000797DA /* EonilFileSystemEventStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EonilFileSystemEventStream.m; sourceTree = "<group>"; };
+		8A1D12A41DA6A405000797DA /* EonilJustFSEventStreamWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EonilJustFSEventStreamWrapper.h; sourceTree = "<group>"; };
+		8A1D12A51DA6A405000797DA /* EonilJustFSEventStreamWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EonilJustFSEventStreamWrapper.m; sourceTree = "<group>"; };
+		8A1D12A61DA6A405000797DA /* FileSystemEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEventMonitor.swift; sourceTree = "<group>"; };
+		8A1D12A71DA6A405000797DA /* InternalTester-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InternalTester-Bridging-Header.h"; sourceTree = "<group>"; };
+		8A1D12B41DA6A4AF000797DA /* FSE-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSE-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1D12B61DA6A4AF000797DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A1D12BA1DA6A4AF000797DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1D12BF1DA6A4AF000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1D12C41DA6A4AF000797DA /* FSE-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSE-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1D12C81DA6A4AF000797DA /* FSE_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSE_DemoTests.swift; sourceTree = "<group>"; };
+		8A1D12CA1DA6A4AF000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1D12CF1DA6A4AF000797DA /* FSE-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FSE-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1D12D31DA6A4AF000797DA /* FSE_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSE_DemoUITests.swift; sourceTree = "<group>"; };
+		8A1D12D51DA6A4AF000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1D12E01DA6A4FC000797DA /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +89,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A1D12B11DA6A4AF000797DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1D12DF1DA6A4BD000797DA /* EonilFileSystemEvents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1D12C11DA6A4AF000797DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1D12CC1DA6A4AF000797DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +119,9 @@
 			children = (
 				8A1D12891DA6A3F0000797DA /* EonilFileSystemEvents */,
 				8A1D12941DA6A3F0000797DA /* EonilFileSystemEventsTests */,
+				8A1D12B51DA6A4AF000797DA /* FSE-Demo */,
+				8A1D12C71DA6A4AF000797DA /* FSE-DemoTests */,
+				8A1D12D21DA6A4AF000797DA /* FSE-DemoUITests */,
 				8A1D12881DA6A3F0000797DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +131,9 @@
 			children = (
 				8A1D12871DA6A3F0000797DA /* EonilFileSystemEvents.framework */,
 				8A1D12901DA6A3F0000797DA /* EonilFileSystemEventsTests.xctest */,
+				8A1D12B41DA6A4AF000797DA /* FSE-Demo.app */,
+				8A1D12C41DA6A4AF000797DA /* FSE-DemoTests.xctest */,
+				8A1D12CF1DA6A4AF000797DA /* FSE-DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +141,13 @@
 		8A1D12891DA6A3F0000797DA /* EonilFileSystemEvents */ = {
 			isa = PBXGroup;
 			children = (
-				8A1D128A1DA6A3F0000797DA /* EonilFileSystemEvents.h */,
+				8A1D12A11DA6A405000797DA /* EonilFileSystemEvents.h */,
+				8A1D12A21DA6A405000797DA /* EonilFileSystemEventStream.h */,
+				8A1D12A31DA6A405000797DA /* EonilFileSystemEventStream.m */,
+				8A1D12A41DA6A405000797DA /* EonilJustFSEventStreamWrapper.h */,
+				8A1D12A51DA6A405000797DA /* EonilJustFSEventStreamWrapper.m */,
+				8A1D12A61DA6A405000797DA /* FileSystemEventMonitor.swift */,
+				8A1D12A71DA6A405000797DA /* InternalTester-Bridging-Header.h */,
 				8A1D128B1DA6A3F0000797DA /* Info.plist */,
 			);
 			path = EonilFileSystemEvents;
@@ -86,6 +162,35 @@
 			path = EonilFileSystemEventsTests;
 			sourceTree = "<group>";
 		};
+		8A1D12B51DA6A4AF000797DA /* FSE-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D12B61DA6A4AF000797DA /* AppDelegate.swift */,
+				8A1D12E01DA6A4FC000797DA /* MainMenu.xib */,
+				8A1D12BA1DA6A4AF000797DA /* Assets.xcassets */,
+				8A1D12BF1DA6A4AF000797DA /* Info.plist */,
+			);
+			path = "FSE-Demo";
+			sourceTree = "<group>";
+		};
+		8A1D12C71DA6A4AF000797DA /* FSE-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D12C81DA6A4AF000797DA /* FSE_DemoTests.swift */,
+				8A1D12CA1DA6A4AF000797DA /* Info.plist */,
+			);
+			path = "FSE-DemoTests";
+			sourceTree = "<group>";
+		};
+		8A1D12D21DA6A4AF000797DA /* FSE-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D12D31DA6A4AF000797DA /* FSE_DemoUITests.swift */,
+				8A1D12D51DA6A4AF000797DA /* Info.plist */,
+			);
+			path = "FSE-DemoUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +198,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A1D12981DA6A3F0000797DA /* EonilFileSystemEvents.h in Headers */,
+				8A1D12AF1DA6A459000797DA /* EonilFileSystemEvents.h in Headers */,
+				8A1D12A91DA6A405000797DA /* EonilFileSystemEventStream.h in Headers */,
+				8A1D12AB1DA6A405000797DA /* EonilJustFSEventStreamWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +243,59 @@
 			productReference = 8A1D12901DA6A3F0000797DA /* EonilFileSystemEventsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8A1D12B31DA6A4AF000797DA /* FSE-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1D12D61DA6A4AF000797DA /* Build configuration list for PBXNativeTarget "FSE-Demo" */;
+			buildPhases = (
+				8A1D12B01DA6A4AF000797DA /* Sources */,
+				8A1D12B11DA6A4AF000797DA /* Frameworks */,
+				8A1D12B21DA6A4AF000797DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FSE-Demo";
+			productName = "FSE-Demo";
+			productReference = 8A1D12B41DA6A4AF000797DA /* FSE-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1D12C31DA6A4AF000797DA /* FSE-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1D12D91DA6A4AF000797DA /* Build configuration list for PBXNativeTarget "FSE-DemoTests" */;
+			buildPhases = (
+				8A1D12C01DA6A4AF000797DA /* Sources */,
+				8A1D12C11DA6A4AF000797DA /* Frameworks */,
+				8A1D12C21DA6A4AF000797DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1D12C61DA6A4AF000797DA /* PBXTargetDependency */,
+			);
+			name = "FSE-DemoTests";
+			productName = "FSE-DemoTests";
+			productReference = 8A1D12C41DA6A4AF000797DA /* FSE-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A1D12CE1DA6A4AF000797DA /* FSE-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1D12DC1DA6A4AF000797DA /* Build configuration list for PBXNativeTarget "FSE-DemoUITests" */;
+			buildPhases = (
+				8A1D12CB1DA6A4AF000797DA /* Sources */,
+				8A1D12CC1DA6A4AF000797DA /* Frameworks */,
+				8A1D12CD1DA6A4AF000797DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1D12D11DA6A4AF000797DA /* PBXTargetDependency */,
+			);
+			name = "FSE-DemoUITests";
+			productName = "FSE-DemoUITests";
+			productReference = 8A1D12CF1DA6A4AF000797DA /* FSE-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,12 +309,30 @@
 					8A1D12861DA6A3F0000797DA = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Z48RKT6B3T;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					8A1D128F1DA6A3F0000797DA = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Z48RKT6B3T;
 						ProvisioningStyle = Automatic;
+					};
+					8A1D12B31DA6A4AF000797DA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z48RKT6B3T;
+						ProvisioningStyle = Automatic;
+					};
+					8A1D12C31DA6A4AF000797DA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z48RKT6B3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A1D12B31DA6A4AF000797DA;
+					};
+					8A1D12CE1DA6A4AF000797DA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z48RKT6B3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A1D12B31DA6A4AF000797DA;
 					};
 				};
 			};
@@ -164,6 +342,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8A1D127D1DA6A3F0000797DA;
 			productRefGroup = 8A1D12881DA6A3F0000797DA /* Products */;
@@ -172,6 +351,9 @@
 			targets = (
 				8A1D12861DA6A3F0000797DA /* EonilFileSystemEvents */,
 				8A1D128F1DA6A3F0000797DA /* EonilFileSystemEventsTests */,
+				8A1D12B31DA6A4AF000797DA /* FSE-Demo */,
+				8A1D12C31DA6A4AF000797DA /* FSE-DemoTests */,
+				8A1D12CE1DA6A4AF000797DA /* FSE-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +373,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A1D12B21DA6A4AF000797DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1D12BB1DA6A4AF000797DA /* Assets.xcassets in Resources */,
+				8A1D12E11DA6A4FC000797DA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1D12C21DA6A4AF000797DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1D12CD1DA6A4AF000797DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,6 +403,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1D12AA1DA6A405000797DA /* EonilFileSystemEventStream.m in Sources */,
+				8A1D12AD1DA6A405000797DA /* FileSystemEventMonitor.swift in Sources */,
+				8A1D12AC1DA6A405000797DA /* EonilJustFSEventStreamWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +417,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A1D12B01DA6A4AF000797DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1D12B71DA6A4AF000797DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1D12C01DA6A4AF000797DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1D12C91DA6A4AF000797DA /* FSE_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1D12CB1DA6A4AF000797DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1D12D41DA6A4AF000797DA /* FSE_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -216,6 +448,16 @@
 			isa = PBXTargetDependency;
 			target = 8A1D12861DA6A3F0000797DA /* EonilFileSystemEvents */;
 			targetProxy = 8A1D12921DA6A3F0000797DA /* PBXContainerItemProxy */;
+		};
+		8A1D12C61DA6A4AF000797DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1D12B31DA6A4AF000797DA /* FSE-Demo */;
+			targetProxy = 8A1D12C51DA6A4AF000797DA /* PBXContainerItemProxy */;
+		};
+		8A1D12D11DA6A4AF000797DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1D12B31DA6A4AF000797DA /* FSE-Demo */;
+			targetProxy = 8A1D12D01DA6A4AF000797DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -319,6 +561,7 @@
 		8A1D129C1DA6A3F0000797DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -330,9 +573,11 @@
 				INFOPLIST_FILE = EonilFileSystemEvents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.EonilFileSystemEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +585,7 @@
 		8A1D129D1DA6A3F0000797DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -351,6 +597,7 @@
 				INFOPLIST_FILE = EonilFileSystemEvents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.EonilFileSystemEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -361,6 +608,7 @@
 		8A1D129F1DA6A3F0000797DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				INFOPLIST_FILE = EonilFileSystemEventsTests/Info.plist;
@@ -374,6 +622,7 @@
 		8A1D12A01DA6A3F0000797DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				INFOPLIST_FILE = EonilFileSystemEventsTests/Info.plist;
@@ -381,6 +630,98 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.EonilFileSystemEventsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8A1D12D71DA6A4AF000797DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
+				INFOPLIST_FILE = "FSE-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.FSE-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A1D12D81DA6A4AF000797DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
+				INFOPLIST_FILE = "FSE-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.FSE-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8A1D12DA1DA6A4AF000797DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
+				INFOPLIST_FILE = "FSE-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.FSE-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSE-Demo.app/Contents/MacOS/FSE-Demo";
+			};
+			name = Debug;
+		};
+		8A1D12DB1DA6A4AF000797DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
+				INFOPLIST_FILE = "FSE-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.FSE-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSE-Demo.app/Contents/MacOS/FSE-Demo";
+			};
+			name = Release;
+		};
+		8A1D12DD1DA6A4AF000797DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
+				INFOPLIST_FILE = "FSE-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.FSE-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FSE-Demo";
+			};
+			name = Debug;
+		};
+		8A1D12DE1DA6A4AF000797DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
+				INFOPLIST_FILE = "FSE-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.128keaton.FSE-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FSE-Demo";
 			};
 			name = Release;
 		};
@@ -409,6 +750,30 @@
 			buildConfigurations = (
 				8A1D129F1DA6A3F0000797DA /* Debug */,
 				8A1D12A01DA6A3F0000797DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A1D12D61DA6A4AF000797DA /* Build configuration list for PBXNativeTarget "FSE-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1D12D71DA6A4AF000797DA /* Debug */,
+				8A1D12D81DA6A4AF000797DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A1D12D91DA6A4AF000797DA /* Build configuration list for PBXNativeTarget "FSE-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1D12DA1DA6A4AF000797DA /* Debug */,
+				8A1D12DB1DA6A4AF000797DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A1D12DC1DA6A4AF000797DA /* Build configuration list for PBXNativeTarget "FSE-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1D12DD1DA6A4AF000797DA /* Debug */,
+				8A1D12DE1DA6A4AF000797DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
