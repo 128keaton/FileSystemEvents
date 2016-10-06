@@ -577,6 +577,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.EonilFileSystemEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "EonilFileSystemEvents/InternalTester-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -601,6 +603,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.EonilFileSystemEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "EonilFileSystemEvents/InternalTester-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
