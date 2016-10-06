@@ -7,43 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A1D120E1DA69F5A000797DA /* FileSystemEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1D12041DA69F5A000797DA /* FileSystemEvents.framework */; };
-		8A1D12131DA69F5A000797DA /* FileSystemEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12121DA69F5A000797DA /* FileSystemEventsTests.swift */; };
-		8A1D12151DA69F5A000797DA /* FileSystemEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D12071DA69F5A000797DA /* FileSystemEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1D123D1DA6A01F000797DA /* FileSystemEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1D12341DA6A01F000797DA /* FileSystemEvents.framework */; };
+		8A1D12421DA6A01F000797DA /* FileSystemEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D12411DA6A01F000797DA /* FileSystemEventsTests.swift */; };
+		8A1D12441DA6A01F000797DA /* FileSystemEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D12361DA6A01F000797DA /* FileSystemEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1D124C1DA6A029000797DA /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1D124B1DA6A029000797DA /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A1D120F1DA69F5A000797DA /* PBXContainerItemProxy */ = {
+		8A1D123E1DA6A01F000797DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A1D11FB1DA69F5A000797DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A1D12031DA69F5A000797DA;
+			remoteGlobalIDString = 8A1D12331DA6A01F000797DA;
 			remoteInfo = FileSystemEvents;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A1D12041DA69F5A000797DA /* FileSystemEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileSystemEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A1D12071DA69F5A000797DA /* FileSystemEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSystemEvents.h; sourceTree = "<group>"; };
 		8A1D12081DA69F5A000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A1D120D1DA69F5A000797DA /* FileSystemEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileSystemEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1D12121DA69F5A000797DA /* FileSystemEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemEventsTests.swift; sourceTree = "<group>"; };
 		8A1D12141DA69F5A000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1D121E1DA69F88000797DA /* EonilFileSystemEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EonilFileSystemEvents.h; path = ../../EonilFileSystemEvents/Project/Sources/EonilFileSystemEvents.h; sourceTree = "<group>"; };
+		8A1D121F1DA69F88000797DA /* EonilFileSystemEventStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EonilFileSystemEventStream.h; path = ../../EonilFileSystemEvents/Project/Sources/EonilFileSystemEventStream.h; sourceTree = "<group>"; };
+		8A1D12201DA69F88000797DA /* EonilFileSystemEventStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EonilFileSystemEventStream.m; path = ../../EonilFileSystemEvents/Project/Sources/EonilFileSystemEventStream.m; sourceTree = "<group>"; };
+		8A1D12211DA69F88000797DA /* EonilJustFSEventStreamWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EonilJustFSEventStreamWrapper.h; path = ../../EonilFileSystemEvents/Project/Sources/EonilJustFSEventStreamWrapper.h; sourceTree = "<group>"; };
+		8A1D12221DA69F88000797DA /* EonilJustFSEventStreamWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EonilJustFSEventStreamWrapper.m; path = ../../EonilFileSystemEvents/Project/Sources/EonilJustFSEventStreamWrapper.m; sourceTree = "<group>"; };
+		8A1D12231DA69F88000797DA /* FileSystemEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystemEventMonitor.swift; path = ../../EonilFileSystemEvents/Project/Sources/FileSystemEventMonitor.swift; sourceTree = "<group>"; };
+		8A1D12241DA69F88000797DA /* InternalTester-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "InternalTester-Bridging-Header.h"; path = "../../EonilFileSystemEvents/Project/Sources/InternalTester-Bridging-Header.h"; sourceTree = "<group>"; };
+		8A1D122D1DA69FE5000797DA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8A1D12341DA6A01F000797DA /* FileSystemEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileSystemEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1D12361DA6A01F000797DA /* FileSystemEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSystemEvents.h; sourceTree = "<group>"; };
+		8A1D12371DA6A01F000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1D123C1DA6A01F000797DA /* FileSystemEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileSystemEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1D12411DA6A01F000797DA /* FileSystemEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemEventsTests.swift; sourceTree = "<group>"; };
+		8A1D12431DA6A01F000797DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1D124B1DA6A029000797DA /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8A1D12001DA69F5A000797DA /* Frameworks */ = {
+		8A1D12301DA6A01F000797DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1D124C1DA6A029000797DA /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A1D120A1DA69F5A000797DA /* Frameworks */ = {
+		8A1D12391DA6A01F000797DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A1D120E1DA69F5A000797DA /* FileSystemEvents.framework in Frameworks */,
+				8A1D123D1DA6A01F000797DA /* FileSystemEvents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,15 +69,18 @@
 			children = (
 				8A1D12061DA69F5A000797DA /* FileSystemEvents */,
 				8A1D12111DA69F5A000797DA /* FileSystemEventsTests */,
+				8A1D12351DA6A01F000797DA /* FileSystemEvents */,
+				8A1D12401DA6A01F000797DA /* FileSystemEventsTests */,
 				8A1D12051DA69F5A000797DA /* Products */,
+				8A1D122C1DA69FE5000797DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8A1D12051DA69F5A000797DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A1D12041DA69F5A000797DA /* FileSystemEvents.framework */,
-				8A1D120D1DA69F5A000797DA /* FileSystemEventsTests.xctest */,
+				8A1D12341DA6A01F000797DA /* FileSystemEvents.framework */,
+				8A1D123C1DA6A01F000797DA /* FileSystemEventsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +88,13 @@
 		8A1D12061DA69F5A000797DA /* FileSystemEvents */ = {
 			isa = PBXGroup;
 			children = (
-				8A1D12071DA69F5A000797DA /* FileSystemEvents.h */,
+				8A1D121E1DA69F88000797DA /* EonilFileSystemEvents.h */,
+				8A1D121F1DA69F88000797DA /* EonilFileSystemEventStream.h */,
+				8A1D12201DA69F88000797DA /* EonilFileSystemEventStream.m */,
+				8A1D12211DA69F88000797DA /* EonilJustFSEventStreamWrapper.h */,
+				8A1D12221DA69F88000797DA /* EonilJustFSEventStreamWrapper.m */,
+				8A1D12231DA69F88000797DA /* FileSystemEventMonitor.swift */,
+				8A1D12241DA69F88000797DA /* InternalTester-Bridging-Header.h */,
 				8A1D12081DA69F5A000797DA /* Info.plist */,
 			);
 			path = FileSystemEvents;
@@ -86,28 +109,55 @@
 			path = FileSystemEventsTests;
 			sourceTree = "<group>";
 		};
+		8A1D122C1DA69FE5000797DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D124B1DA6A029000797DA /* CoreServices.framework */,
+				8A1D122D1DA69FE5000797DA /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1D12351DA6A01F000797DA /* FileSystemEvents */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D12361DA6A01F000797DA /* FileSystemEvents.h */,
+				8A1D12371DA6A01F000797DA /* Info.plist */,
+			);
+			path = FileSystemEvents;
+			sourceTree = "<group>";
+		};
+		8A1D12401DA6A01F000797DA /* FileSystemEventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D12411DA6A01F000797DA /* FileSystemEventsTests.swift */,
+				8A1D12431DA6A01F000797DA /* Info.plist */,
+			);
+			path = FileSystemEventsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8A1D12011DA69F5A000797DA /* Headers */ = {
+		8A1D12311DA6A01F000797DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A1D12151DA69F5A000797DA /* FileSystemEvents.h in Headers */,
+				8A1D12441DA6A01F000797DA /* FileSystemEvents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8A1D12031DA69F5A000797DA /* FileSystemEvents */ = {
+		8A1D12331DA6A01F000797DA /* FileSystemEvents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1D12181DA69F5A000797DA /* Build configuration list for PBXNativeTarget "FileSystemEvents" */;
+			buildConfigurationList = 8A1D12451DA6A01F000797DA /* Build configuration list for PBXNativeTarget "FileSystemEvents" */;
 			buildPhases = (
-				8A1D11FF1DA69F5A000797DA /* Sources */,
-				8A1D12001DA69F5A000797DA /* Frameworks */,
-				8A1D12011DA69F5A000797DA /* Headers */,
-				8A1D12021DA69F5A000797DA /* Resources */,
+				8A1D122F1DA6A01F000797DA /* Sources */,
+				8A1D12301DA6A01F000797DA /* Frameworks */,
+				8A1D12311DA6A01F000797DA /* Headers */,
+				8A1D12321DA6A01F000797DA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,25 +165,25 @@
 			);
 			name = FileSystemEvents;
 			productName = FileSystemEvents;
-			productReference = 8A1D12041DA69F5A000797DA /* FileSystemEvents.framework */;
+			productReference = 8A1D12341DA6A01F000797DA /* FileSystemEvents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A1D120C1DA69F5A000797DA /* FileSystemEventsTests */ = {
+		8A1D123B1DA6A01F000797DA /* FileSystemEventsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1D121B1DA69F5A000797DA /* Build configuration list for PBXNativeTarget "FileSystemEventsTests" */;
+			buildConfigurationList = 8A1D12481DA6A01F000797DA /* Build configuration list for PBXNativeTarget "FileSystemEventsTests" */;
 			buildPhases = (
-				8A1D12091DA69F5A000797DA /* Sources */,
-				8A1D120A1DA69F5A000797DA /* Frameworks */,
-				8A1D120B1DA69F5A000797DA /* Resources */,
+				8A1D12381DA6A01F000797DA /* Sources */,
+				8A1D12391DA6A01F000797DA /* Frameworks */,
+				8A1D123A1DA6A01F000797DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A1D12101DA69F5A000797DA /* PBXTargetDependency */,
+				8A1D123F1DA6A01F000797DA /* PBXTargetDependency */,
 			);
 			name = FileSystemEventsTests;
 			productName = FileSystemEventsTests;
-			productReference = 8A1D120D1DA69F5A000797DA /* FileSystemEventsTests.xctest */;
+			productReference = 8A1D123C1DA6A01F000797DA /* FileSystemEventsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,12 +196,12 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Keaton Burleson";
 				TargetAttributes = {
-					8A1D12031DA69F5A000797DA = {
+					8A1D12331DA6A01F000797DA = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Z48RKT6B3T;
 						ProvisioningStyle = Automatic;
 					};
-					8A1D120C1DA69F5A000797DA = {
+					8A1D123B1DA6A01F000797DA = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Z48RKT6B3T;
 						ProvisioningStyle = Automatic;
@@ -170,21 +220,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A1D12031DA69F5A000797DA /* FileSystemEvents */,
-				8A1D120C1DA69F5A000797DA /* FileSystemEventsTests */,
+				8A1D12331DA6A01F000797DA /* FileSystemEvents */,
+				8A1D123B1DA6A01F000797DA /* FileSystemEventsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A1D12021DA69F5A000797DA /* Resources */ = {
+		8A1D12321DA6A01F000797DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A1D120B1DA69F5A000797DA /* Resources */ = {
+		8A1D123A1DA6A01F000797DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,28 +244,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A1D11FF1DA69F5A000797DA /* Sources */ = {
+		8A1D122F1DA6A01F000797DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A1D12091DA69F5A000797DA /* Sources */ = {
+		8A1D12381DA6A01F000797DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A1D12131DA69F5A000797DA /* FileSystemEventsTests.swift in Sources */,
+				8A1D12421DA6A01F000797DA /* FileSystemEventsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A1D12101DA69F5A000797DA /* PBXTargetDependency */ = {
+		8A1D123F1DA6A01F000797DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A1D12031DA69F5A000797DA /* FileSystemEvents */;
-			targetProxy = 8A1D120F1DA69F5A000797DA /* PBXContainerItemProxy */;
+			target = 8A1D12331DA6A01F000797DA /* FileSystemEvents */;
+			targetProxy = 8A1D123E1DA6A01F000797DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -319,64 +369,80 @@
 			};
 			name = Release;
 		};
-		8A1D12191DA69F5A000797DA /* Debug */ = {
+		8A1D12461DA6A01F000797DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = FileSystemEvents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.FileSystemEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		8A1D121A1DA69F5A000797DA /* Release */ = {
+		8A1D12471DA6A01F000797DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = FileSystemEvents/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.FileSystemEvents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		8A1D121C1DA69F5A000797DA /* Debug */ = {
+		8A1D12491DA6A01F000797DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				INFOPLIST_FILE = FileSystemEventsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.FileSystemEventsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		8A1D121D1DA69F5A000797DA /* Release */ = {
+		8A1D124A1DA6A01F000797DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				INFOPLIST_FILE = FileSystemEventsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.FileSystemEventsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -393,19 +459,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A1D12181DA69F5A000797DA /* Build configuration list for PBXNativeTarget "FileSystemEvents" */ = {
+		8A1D12451DA6A01F000797DA /* Build configuration list for PBXNativeTarget "FileSystemEvents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A1D12191DA69F5A000797DA /* Debug */,
-				8A1D121A1DA69F5A000797DA /* Release */,
+				8A1D12461DA6A01F000797DA /* Debug */,
+				8A1D12471DA6A01F000797DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8A1D121B1DA69F5A000797DA /* Build configuration list for PBXNativeTarget "FileSystemEventsTests" */ = {
+		8A1D12481DA6A01F000797DA /* Build configuration list for PBXNativeTarget "FileSystemEventsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A1D121C1DA69F5A000797DA /* Debug */,
-				8A1D121D1DA69F5A000797DA /* Release */,
+				8A1D12491DA6A01F000797DA /* Debug */,
+				8A1D124A1DA6A01F000797DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

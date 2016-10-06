@@ -6,7 +6,7 @@
 //  Copyright © 2016 Keaton Burleson. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
 //! Project version number for FileSystemEvents.
 FOUNDATION_EXPORT double FileSystemEventsVersionNumber;
